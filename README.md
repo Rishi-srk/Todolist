@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### UI 
+![image](https://user-images.githubusercontent.com/95974733/189707355-0b9a070b-ea71-49ed-8204-d94dff29c843.png)
+### Instructions
+Click on the + button under the todo list and then enter the task and time and then click on the submit button then the task will be displayed.
