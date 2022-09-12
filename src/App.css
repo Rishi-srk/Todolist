@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.wid25{
+  display: block;
+  margin: auto;
+  max-width: 400px;
+}
+.active{
+  background-color:rgb(231, 218, 213);
+  height: 10px;
+  padding: 1px 10px;
+  border-radius: 2rem;
+  text-decoration-color: aliceblue;
+  height: max-content;
+ text-align: center;  
+ color: aliceblue;
+}
+.done1{
+  background-color:rgb(84, 84, 211,0.9);
+  border-radius: 5px;
+}
+.done2{
+  border-radius: 3px;
+}
+.wid{
+ 
 }

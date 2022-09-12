@@ -1,23 +1,37 @@
 import logo from './logo.svg';
 import './App.css';
+import { Routes, Route, NavLink ,Navigate} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Active from './components/Active';
+import All from './components/All';
+import Completed from './components/Completed';
+import { useState } from 'react';
 
 function App() {
+  
+  let handleClick=()=>{
+
+  }
+  
+   
+   
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App ">
+      <div className=''>
+      <h1 className='mt-5 mb-5'>Task Board</h1>
+      </div>
+      <div className=' d-flex  justify-content-center row-cols-4'>
+      <All  className='col-sm-4'/>
+      <Active className='col-sm-4' />
+      <Completed className='col-sm-4'/>
+        
+      </div>
+
+     
+      
+
     </div>
   );
 }
